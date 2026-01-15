@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Super crazy server management Discord bot with embed builder, text tool, ticket system, event maker, and ticket panel.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "author": "chace4823-creator",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "nanoid": "^4.0.0"
+  }
+}
